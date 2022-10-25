@@ -4,11 +4,11 @@ flask instantiation
 """
 
 
-from flask import Flask, render_template, request
+from flask import Flask, jsonify, make_response
 from flask_cors import CORS
-from models import create_post, get_posts
 from models import storage
 from api.v1.views import app_views
+from os import getenv
 
 HOST = getenv('HBNB_API_HOST', "0.0.0.0")
 PORT = getenv('HBNB_API_PORT', 5000)
