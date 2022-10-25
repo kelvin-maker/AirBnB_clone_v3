@@ -23,6 +23,7 @@ app.config['JSONIFY_PRETTYPRINT_REGULAR'] = True
 # registers the blueprint app_views to your Flask instance app
 app.register_blueprint(app_views)
 
+
 @app.errorhandler(404)
 def error_404(err):
     """Produce a 404 error message"""
@@ -37,4 +38,3 @@ def close_storage(exe):
 
 if __name__ == "__main__":
     app.run(host=HOST, port=PORT, threaded=True)
-    
