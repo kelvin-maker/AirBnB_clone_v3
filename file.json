@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"BaseModel.2cfa3d6e-b3ec-4234-855d-f2e0e7c77e3b": {"id": "2cfa3d6e-b3ec-4234-855d-f2e0e7c77e3b", "created_at": "2022-10-22T14:01:04.543193", "__class__": "BaseModel", "updated_at": "2022-10-22T14:01:04.543202", "name": "My_First_Model", "my_number": 89}}
+=======
+{"Place.e9db81ee-7d0f-45b3-80a5-f8c2e04e5dbf": {"name": "My little house", "user_id": "0001", "city_id": "0001", "longitude": -122.431297, "number_rooms": 4, "id": "e9db81ee-7d0f-45b3-80a5-f8c2e04e5dbf", "updated_at": "2022-10-22T14:15:48.538081", "created_at": "2022-10-22T14:15:48.538033", "number_bathrooms": 2, "__class__": "Place", "max_guest": 10, "price_by_night": 300, "latitude": 37.773972}, "State.6b180ae7-fe3d-4a1e-94ea-606e7af39146": {"name": "California", "__class__": "State", "id": "6b180ae7-fe3d-4a1e-94ea-606e7af39146", "updated_at": "2022-10-22T14:15:48.536919", "created_at": "2022-10-22T14:15:48.536687"}, "State.9df499da-4e4a-4e94-9cd1-3a655c39fb98": {"name": "Arizona", "__class__": "State", "id": "9df499da-4e4a-4e94-9cd1-3a655c39fb98", "updated_at": "2022-10-22T14:15:48.537447", "created_at": "2022-10-22T14:15:48.537396"}}
+>>>>>>> a14357a7b0344272df94e76be26c0a4a3b41db5c
